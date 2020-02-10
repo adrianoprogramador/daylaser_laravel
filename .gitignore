@@ -1,8 +1,12 @@
 /node_modules
 /public/hot
 /public/storage
+/public/images/*
+/public/daylaser/*
 /storage/*.key
 /vendor
+/public/daylaser/*
+/public/AdminLTE/*
 .env
 .env.backup
 .phpunit.result.cache

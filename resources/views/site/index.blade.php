@@ -2,7 +2,7 @@
 
 @section('conteudo')
     
-<div class="ie-panel"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
+<div class="ie-panel"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="{{ asset('images/ie8-panel/warning_bar_0000_us.jpg')}}" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
     <div class="preloader">
       <div class="preloader-body">
         <div class="cssload-container">
@@ -55,7 +55,7 @@
                   <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
                   <!--RD Navbar Brand-->
                   <div class="rd-navbar-brand">
-                    <!--Brand--><a class="brand" href="index.php"><img class="brand-logo-dark" src="images/logoday-ajustada.png" alt="" width="100" height="17"/><img class="brand-logo-light" src="images/logoday-ajustada.png" alt="" width="100" height="17"/></a>
+                    <!--Brand--><a class="brand" href="index.php"><img class="brand-logo-dark" src="{{ asset('images/ie8-panel/warning_bar_0000_us.jpg')}}" alt="" width="100" height="17"/><img class="brand-logo-light" src="images/logoday-ajustada.png" alt="" width="100" height="17"/></a>
                   </div>
                 </div>
                 <div class="rd-navbar-main-element">
@@ -88,7 +88,7 @@
         </div>
         <div class="decorate-layer">
           <div class="layer-1">
-            <div class="layer" data-depth=".20"><img src="images/parallax-item-1-563x532.png" alt="" width="563" height="266"/>
+            <div class="layer" data-depth=".20"><img src="{{ asset('images/parallax-item-1-563x532.png')}}" alt="" width="563" height="266"/>
             </div>
           </div>
           <div class="layer-2">

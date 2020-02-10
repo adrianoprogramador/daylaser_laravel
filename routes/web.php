@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('site.index');
 });
+
+Route::get('/gestor', function () {
+    return view('admin.dashboard');
+});
+
